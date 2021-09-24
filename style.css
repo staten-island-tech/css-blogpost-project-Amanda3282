@@ -1,8 +1,10 @@
 body {
+  grid-template: ;
   background-image: url(img/eduard-militaru-D5c_XKM2tkE-unsplash.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  height: 100vh;
 }
 .head {
   text-align: center;
@@ -13,8 +15,28 @@ body {
   border: 5px solid white;
   font-family: "Grechen Fuemen", cursive;
 }
-.blog1 {
+.blogpost1 {
   color: black;
   background-color: #fdf6f0;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Cinzel", serif;
+  text-align: center;
+  margin-bottom: 100px;
+  margin-left: 700px;
+  margin-right: 700px;
+  padding: 250px;
+}
+.blo .blogpost1 img {
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+  text-align: center;
+}
+.blogpost2 {
+  color: black;
+  background-color: blanchedalmond;
+  font-family: "Cinzel", serif;
+  margin-bottom: 100px;
+  padding: 250px;
+  margin-left: 700px;
+  margin-right: 700px;
 }
