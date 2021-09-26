@@ -16,60 +16,72 @@ body {
   margin-right: 150px;
   margin-bottom: 25px;
   padding: 50px;
-  border: 7px solid white;
+  border: 10px solid white;
   font-family: "Playfair Display", serif;
 }
 .subhead {
   color: white;
   text-align: center;
   font-size: 70px;
-  margin-bottom: 150px;
+  margin-bottom: 200px;
   font-family: "Shadows Into Light", cursive;
 }
-.blog1 {
+.top {
   background-color: #6b705c;
-  font-size: 55px;
-  margin-top: 25px;
+  font-size: 60px;
+  text-align: center;
   padding-top: 20px;
   padding-bottom: 10px;
-  text-align: center;
   font-family: "Architects Daughter", cursive;
+  color: white;
 }
 .blogpost1 {
-  border: 6px solid white;
-  height: 475px;
-  margin: 20px 15px;
+  padding-bottom: 350px;
+  margin-bottom: 80px;
+  margin-left: 300px;
+  margin-right: 300px;
+  background-image: url(img/hydrangea.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
   position: relative;
 }
-.blogpost1 img {
-  position: absolute;
-  width: 400px;
-}
 .blogpost2 {
-  border: 6px solid white;
-  height: 475px;
-  margin: 20px 15px;
-}
-.blog2 {
-  background-color: #6b705c;
-  font-size: 55px;
-  text-align: center;
-  margin-top: 25px;
-  padding-top: 20px;
-  padding-bottom: 10px;
-  font-family: "Architects Daughter", cursive;
+  padding-bottom: 350px;
+  margin-bottom: 80px;
+  margin-left: 300px;
+  margin-right: 300px;
+  background-image: url(img/succulent.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
 .blogpost3 {
-  border: 6px solid white;
-  height: 475px;
-  margin: 20px 15px;
+  padding-bottom: 350px;
+  margin-bottom: 80px;
+  margin-left: 300px;
+  margin-right: 300px;
+  background-image: url(img/daisies.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
-.blog3 {
-  background-color: #6b705c;
-  font-size: 55px;
+.box {
+  border: 15px double white;
+}
+p {
+  position: absolute;
   text-align: center;
-  margin-top: 25px;
-  padding-top: 20px;
-  padding-bottom: 10px;
+  font-size: 22px;
+  background-color: white;
+  padding: 100px;
+  width: 400px;
+  height: 30px;
+  line-height: 30px;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, 50%);
   font-family: "Architects Daughter", cursive;
+}
+.link {
+  font-size: 20px;
 }
